@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", function (req, res) {
   console.log("/");
-  res.status(200).send("hello world");
+  res.status(200).send("hello EeeMay MultiSigMagician!!!");
 });
 app.get("/:key", function (req, res) {
   let key = req.params.key;
